@@ -1,0 +1,36 @@
+.filterOrderActivities {
+  width: 100%;
+}
+
+.filterOrderActivitiesContainer {
+  max-width: 60%;
+  padding: 20px 0;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  row-gap: 20px;
+}
+
+.filterOrderActivitiesTypes {
+  width: 250px;
+  align-items: center;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.filterOrderActivitiesButton {
+  margin: auto;
+}
+
+.filterOrderActivitiesButton button {
+  margin: auto;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  border: 4px solid coral;
+  background-color: #fff;
+}
+.filterOrderActivitiesButton button:hover {
+  cursor: pointer;
+}

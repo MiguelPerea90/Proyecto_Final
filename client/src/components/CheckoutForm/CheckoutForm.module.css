@@ -1,0 +1,16 @@
+.paymentForm{
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.button{
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+.errorMessage{
+  color: brown;
+  text-align: center;
+}

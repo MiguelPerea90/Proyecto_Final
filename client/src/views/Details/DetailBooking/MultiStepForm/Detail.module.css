@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans&family=Ubuntu&family=Ubuntu+Condensed&family=Ubuntu+Mono:ital,wght@1,400;1,700&display=swap');
+
+.genelaContainer{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    align-items: flex-start;
+}
+.containerBookingGeneral{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.detailBookingContainer{   
+    width: 800px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px 15px;
+    background-color: rgb(238, 238, 197);
+    gap: 60px;
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+    
+}
+.image{
+    text-align: center;
+    
+}
+.image img{
+   text-align: center;
+   width: 300px;
+   height: 300px;
+   margin: auto;
+}
+.button{    
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.titleBooking{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    margin-top: 10px;
+    
+}
+.title1{    
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    flex-direction: row;
+    gap: 1rem; 
+    justify-content: center;    
+}
+.modal{
+    display: flex;
+    margin-top: 15px;
+    justify-content: left;
+    gap: 1rem;
+}
+.btnDelete{
+    background-color: rgb(182, 112, 96);
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+}
+.stripe{
+    border: 2px solid black;
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+.detalle{
+    background-color: rgb(46, 45, 83);
+    color: aliceblue;
+    height: 50%;
+    width: 50%;
+}
+.detalleImage{
+    max-width: 30rem;
+    max-height: 18rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+.fail{
+    margin-left: 15px;
+    color: black;
+    animation: move linear 2000ms infinite;
+}
+.roomDetail{
+    align-items: center;
+}
+.calendarContainer{
+    
+    
+}
+@keyframes move {
+    0%{
+        color: rgb(21, 84, 86);
+    }
+    25%{
+        color: blueviolet;
+    }
+    50%{
+        color: blue;
+    }
+    75%{
+        color: rgb(127, 44, 44);
+    }
+    100%{
+        color: red;
+    }
+}

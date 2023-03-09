@@ -1,0 +1,32 @@
+.pagedContainer {
+  margin-top: 20px;
+}
+
+.pagedContainerList {
+  display: flex;
+  justify-content: center;
+}
+
+.pagedList {
+  list-style: none;
+  color: #fff;
+}
+
+.pagedList a {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 7px;
+  /* border: 1px solid black; */
+  border: none;
+  background-color: rgb(84, 84, 87);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.pagedList a:hover {
+  background-color: #ff795b;
+  color: white;
+}

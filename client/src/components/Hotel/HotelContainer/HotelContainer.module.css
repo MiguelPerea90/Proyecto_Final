@@ -1,0 +1,22 @@
+.hotelContainer {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hotelContainerCards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: minmax(480px, auto);
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+}
+
+.hotelContainerCards div {
+  margin: auto;
+}

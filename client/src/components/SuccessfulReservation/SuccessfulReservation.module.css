@@ -1,0 +1,16 @@
+.main{
+  background-color: #ece4d9;
+  height: 100vh;
+  font-family: inherit;
+}
+
+.card{
+  width: 90%;
+  max-width: 410px;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.card :is(span){
+  font-weight: bold;
+}

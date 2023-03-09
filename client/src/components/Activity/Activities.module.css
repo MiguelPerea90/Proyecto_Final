@@ -1,0 +1,22 @@
+.activitiesPaged {
+  padding: 10px;
+}
+.containerButtonVolver {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+.buttonMoreActivities {
+  background-color: #FF8C00;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 0;
+  padding: 10px 20px;
+  box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+}
+.buttonMoreActivities:hover{
+  transform: scale(1.1);
+  background-color: #273245;     
+  color: antiquewhite;
+}

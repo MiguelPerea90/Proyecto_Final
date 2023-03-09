@@ -1,0 +1,50 @@
+
+/* .containerUser{
+    display: flex;
+    align-items: center;   
+    flex-direction: column;
+    margin-top: 20px;    
+} */
+.detailContainer{    
+    width: 43vw;
+    height: auto;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px 15px;
+    background-color: rgb(223, 223, 223);
+    gap: 60px;
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+    margin-bottom: 30px;
+}
+.titleBooking {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.title1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+}
+.fail {
+  margin-left: 15px;
+  color: black;
+  animation: move linear 2000ms infinite;
+}
+@keyframes move {
+    0%{
+        color: rgb(21, 84, 86);
+    }
+    25%{
+        color: blueviolet;
+    }
+    50%{
+        color: blue;
+    }
+    75%{
+        color: rgb(127, 44, 44);
+    }
+    100%{
+        color: red;
+    }
+}

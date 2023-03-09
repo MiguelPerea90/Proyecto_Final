@@ -1,0 +1,19 @@
+.filterCities {
+  width: 100%;
+}
+
+.ffilterCitiesContainer {
+  max-width: 60%;
+  padding: 20px 0;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  row-gap: 20px;
+}
+
+.filterCitiesTypes {
+  width: 250px;
+  align-items: center;
+  text-align: center;
+  margin: 20px auto 50px auto;
+}

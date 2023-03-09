@@ -1,0 +1,28 @@
+.homeContainer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.315);
+  background-image: url("../../images/backgroundHome.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.homeContainerWelcome {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.homeWelcome {
+  width: 500px;
+  padding: 20px;
+  background-color: #ffffffbd;
+  border-radius: 10px;
+}
+
+.homeCardContainer {
+  display: flex;
+  justify-content: center;
+}

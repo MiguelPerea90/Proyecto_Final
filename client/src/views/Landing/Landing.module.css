@@ -1,0 +1,199 @@
+.containerMain {
+    background-color: #FFFFFF;
+}
+.title {
+    color: #0D6EFD;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.parrafo{
+    color:  DarkOrange;
+    font-size: 26px;
+    font-weight: 600;
+    
+}
+.homeButton {
+    background-color: #FF8C00 ;
+    color:  #273245;
+    border: none;
+    border-radius: 8px;
+    font-size: 28px;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 50px;
+    transition: all 300ms;
+}
+.homeButton:hover{
+    transform: scale(1.1);
+    background-color: antiquewhite;     
+    color: #FF8C00;
+}
+.containerHeo {
+    background-image: url("../Landing/img/HeroLanding.jpg");
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.containerContent {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.containerLinks {
+    background-color: #273245;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.containerLinks .links {
+    color: #FF8C00;
+    font-size: 16px;
+    text-decoration: underline;
+}
+h2, h3 {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0;
+}
+.containerDivs {
+    background-color: #FFFFFF;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px;
+}
+.containerDivsVip,
+.containerDivsRecomendados,
+.containerDivsMejoresPrecios  { 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 550px;
+    gap: 4rem;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.divsCarrusel {
+    background-color:#ffffff;
+    width: 420px;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: .5rem;
+    box-shadow: 20px 20px 20px 0px rgba(0,0,0,0.75);
+    padding-bottom: 10px;
+}
+.divsCarrusel img{
+    width: 95%;
+    height: 250px;
+    margin-top: 10px;
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+}
+.containerDescription {
+    background-color: antiquewhite;
+    width: 95%;
+    height: 250px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+}
+.containerDescription h4 {
+   color: #FF8C00;
+   font-weight: 600;
+}
+
+.description {
+    height: 180px;
+}
+.parrafoHotel {
+    font-size: 14px;
+}
+.buttonMoreHotels {
+    background-color: #FF8C00;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 0;
+    padding: 5px 10px;
+}
+.buttonMoreHotels:hover{
+    transform: scale(1.1);
+    background-color: #273245;     
+    color: antiquewhite;
+}
+.containerDivsActividades {
+    background-color: #273245;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    padding: 50px;
+}
+.actividadesTitle {
+    color: #FF8C00;  
+}
+.containerDivsActividades img{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+}
+.divsImgActividad {
+    background-color:#ffffff;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    box-shadow: 20px 20px 20px 0px rgba(0,0,0,0.75);
+}
+.containerDescriptionActividad {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+}
+.parrafoActividad {
+    font-size: 14px;
+}
+.homeButton2 {
+    background-color: antiquewhite;
+    color:  #273245;
+    border: none;
+    border-radius: 8px;
+    font-size: 28px;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 50px;
+    transition: all 300ms;
+}
+.homeButton2:hover{
+    transform: scale(1.1);
+    background-color: #FF8C00;     
+    color: antiquewhite;
+}
+
+
+
+/* #273245 */

@@ -1,0 +1,79 @@
+.cityCardContainer {
+  width: 300px;
+  min-height: 350px;
+  border: 1px solid rgba(0, 0, 0, 0.31);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fbfbfb;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+  cursor: auto;
+}
+
+.cityCardContainer img {
+  width: 270px;
+  height: 200px;
+  margin: auto;
+  padding: 15px 0;
+}
+
+/* .cityCardImage {
+  margin: 10px;
+  padding: 10px;
+}
+
+.cityCardContainer img {
+  width: 100%;
+} */
+
+.cityCardPopularity {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  margin: auto;
+}
+
+.cityCardPopularity img {
+  margin-right: 8px;
+  width: 20px;
+  height: 40px;
+  color: #ff795b;
+}
+
+.cityCardPopularity p {
+  margin: auto 0;
+}
+
+.cityCardButton {
+  font-size: 15px;
+  text-decoration: none;
+  width: 200px;
+  height: 28px;
+  border: 3px solid #ff795b;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+.cityCardButton:hover {
+  background-color: #ff795b;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cityCardInfo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: minmax(20px, 40px);
+  align-items: center;
+}
+
+.cityCardInfo h4 {
+  margin: 0;
+  text-align: center;
+}
+
+.cityCardInfo button {
+  margin: auto;
+}
